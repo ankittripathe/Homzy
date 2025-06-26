@@ -1,0 +1,15 @@
+.com-wrapper .com-container {
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.com-container>img {
+  width: 9rem;
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+  .com-wrapper {
+    margin-top: -1.5rem;
+    margin-bottom: -5rem;
+  }
+}

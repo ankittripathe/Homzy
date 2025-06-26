@@ -1,0 +1,42 @@
+.f-wrapper .f-container {
+  justify-content: space-around;
+}
+
+.f-container .f-left{
+  gap: 1rem;
+}
+
+.f-left>img:hover {
+  cursor: pointer;
+}
+
+.f-right .f-menu{
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+
+.f-menu>*:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .f-wrapper .f-container {
+      justify-content: center;
+  }
+
+  .f-container > div {
+      align-items: center !important;
+      text-align: center;
+  }
+
+  .f-right .f-menu {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+  .f-wrapper {
+    margin-top: -5rem;
+  }
+}
